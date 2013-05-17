@@ -1,0 +1,29 @@
+$column-width: 125px
+$gutter-width: 30px
+$num-columns: 6
+
+.container
+  width: $num-columns * $column-width + ($num-columns + 1) * $gutter-width
+  padding: 0 $gutter-width
+  margin: 0 auto
+
+.grid
+  @extend .container
+
+  .row
+    +pie-clearfix
+    margin-right: -$gutter-width
+
+    .column
+      float: left
+      margin-right: $gutter-width
+
+      @for $i from 1 through ($num-columns - 1)
+        &.push-#{$i}
+          margin-left: $i * ($column-width + $gutter-width)
+        &.pull-#{$i}
+          margin-right: $i * ($column-width + $gutter-width)
+
+      @for $i from 1 through $num-columns
+        &.span-#{$i}
+          width: $i * $column-width + ($i - 1) * $gutter-width
