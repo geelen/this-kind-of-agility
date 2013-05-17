@@ -1,8 +1,1 @@
-body {
-    background: #fafafa;
-}
-
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-}
+/* Will be compiled down to a single stylesheet with your sass files */
