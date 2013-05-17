@@ -2,7 +2,8 @@
   {
     "episode": 1,
     "screencap": "http://images2.wikia.nocookie.net/__cb20120816022607/arresteddevelopment/images/thumb/c/c9/1x01_Pilot_%2810%29.png/220px-1x01_Pilot_%2810%29.png",
-    "byline": "Directed by: Anthony Russo & Joe Russo - Written by: Mitchell Hurwitz",
+    "director": "Anthony Russo & Joe Russo",
+    "writer": "Mitchell Hurwitz",
     "title": "Pilot",
     "synopsis": "Michael decides to take a job in Arizona after being passed over by George Sr. for head of the Bluth Company. George Sr. is jailed, and the family realizes they need Michael.",
     "airdate": "November 2, 2003"
@@ -10,7 +11,8 @@
   {
     "episode": 2,
     "screencap": "http://images4.wikia.nocookie.net/__cb20120118045737/arresteddevelopment/images/thumb/2/28/1x02_Top_Banana_%2844%29.png/220px-1x02_Top_Banana_%2844%29.png",
-    "byline": "Directed by: Anthony Russo - Written by: Mitchell Hurwitz & John Levenstein",
+    "director": "Anthony Russo",
+    "writer": "Mitchell Hurwitz & John Levenstein",
     "title": "Top Banana",
     "synopsis": "Michael puts George Michael in charge of the Bluth Frozen Banana Stand, and his son subsequently burns down the stand. Elsewhere, Tobias auditions for a commercial, and Lindsay inadvertently gets the part.",
     "airdate": "November 9, 2003"
@@ -18,7 +20,8 @@
   {
     "episode": 3,
     "screencap": "http://images4.wikia.nocookie.net/__cb20120123071549/arresteddevelopment/images/thumb/4/42/1x03_Bringing_Up_Buster_%2837%29.png/220px-1x03_Bringing_Up_Buster_%2837%29.png",
-    "byline": "Directed by: Joe Russo - Written by: Mitchell Hurwitz & Richard Rosenstock",
+    "director": "Joe Russo",
+    "writer": "Mitchell Hurwitz & Richard Rosenstock",
     "title": "Bringing Up Buster",
     "synopsis": "Michael spends quality time with Buster. George Michael auditions for a school play to get closer to Maeby. G.O.B. breaks up with his girlfriend and has nowhere to go.",
     "airdate": "November 16, 2003"
@@ -26,7 +29,8 @@
   {
     "episode": 4,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120201052861/arresteddevelopment/images/thumb/e/e4/1x04_Key_Decisions_%2850%29.png/220px-1x04_Key_Decisions_%2850%29.png",
-    "byline": "Directed by: Anthony Russo - Written by: Brad Copeland",
+    "director": "Anthony Russo",
+    "writer": "Brad Copeland",
     "title": "Key Decisions",
     "synopsis": "G.O.B. decides to lock himself in his father's prison for 24 hours to get back in with the alliance, and to spend quality time with his father. Michael takes G.O.B.'s girlfriend to an awards show, and Buster inadvertently flirts with his mother's rival.",
     "airdate": "November 23, 2003"
@@ -34,7 +38,8 @@
   {
     "episode": 5,
     "screencap": "http://images4.wikia.nocookie.net/__cb20120205055015/arresteddevelopment/images/thumb/a/a8/1x05_Charity_Drive_%2839%29.png/220px-1x05_Charity_Drive_%2839%29.png",
-    "byline": "Directed by: Greg Mottola - Written by: Barbie Adler",
+    "director": "Greg Mottola",
+    "writer": "Barbie Adler",
     "title": "Charity Drive",
     "synopsis": "Michael and Lindsay try to prove their charitable sides to each other. G.O.B. demands George Michael's respect, and Buster continues avoiding Lucille 2.",
     "airdate": "November 30, 2003"
@@ -42,7 +47,8 @@
   {
     "episode": 6,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120207030030/arresteddevelopment/images/thumb/d/d7/1x06_Visiting_Ours_%2829%29.png/220px-1x06_Visiting_Ours_%2829%29.png",
-    "byline": "Directed by: Greg Mottola - Written by: John Levenstein & Richard Rosenstock",
+    "director": "Greg Mottola",
+    "writer": "John Levenstein & Richard Rosenstock",
     "title": "Visiting Ours",
     "synopsis": "Michael sets up an \"intimate conjugal visit\" for his parents, while it is revealed that George Sr. had an affair with Kitty, his secretary who recently slept with G.O.B.. Tobias and Lindsay see a marriage counselor.",
     "airdate": "December 7, 2003"
@@ -50,7 +56,8 @@
   {
     "episode": 7,
     "screencap": "http://images2.wikia.nocookie.net/__cb20120209065537/arresteddevelopment/images/thumb/b/bb/1x07_In_God_We_Trust_%2845%29.png/220px-1x07_In_God_We_Trust_%2845%29.png",
-    "byline": "Directed by: Joe Russo - Written by: Abraham Higginbotham",
+    "director": "Joe Russo",
+    "writer": "Abraham Higginbotham",
     "title": "In God We Trust",
     "synopsis": "Michael attempts to fire the family's incompetent but likable attorney. George Michael impresses Maeby with a muscle suit for a \"Living Classics\" pageant. Tobias has a psychological affliction where he is unable to take off his clothes.",
     "airdate": "December 14, 2003"
@@ -58,7 +65,8 @@
   {
     "episode": 8,
     "screencap": "http://images1.wikia.nocookie.net/__cb20120214160230/arresteddevelopment/images/thumb/c/cb/1x08_My_Mother_the_Car_%2848%29.png/220px-1x08_My_Mother_the_Car_%2848%29.png",
-    "byline": "Directed by: Jay Chandrasekhar - Written by: Jay Martin",
+    "director": "Jay Chandrasekhar",
+    "writer": "Jay Martin",
     "title": "My Mother, the Car",
     "synopsis": "Michael loses his short-term memory, which Lucille uses to her advantage. G.O.B. attempts to use the family yacht before Michael sells it. George Michael and Maeby attempt to see an R-rated movie about cousins having an affair. Buster and Lucille 2 take \"the next step\".",
     "airdate": "December 21, 2003"
@@ -66,7 +74,8 @@
   {
     "episode": 9,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120219191007/arresteddevelopment/images/thumb/5/59/1x09_Storming_the_Castle_%2864%29.png/220px-1x09_Storming_the_Castle_%2864%29.png",
-    "byline": "Directed by: Greg Mottola - Written by: Brad Copeland",
+    "director": "Greg Mottola",
+    "writer": "Brad Copeland",
     "title": "Storming the Castle",
     "synopsis": "Michael cannot go through with his plan to break up G.O.B. and Marta. A thug magician wants to take G.O.B.'s \"legs\". Maeby wears all leather to get back at her mother, and Lucille decides to confront Buster's relationship with Lucille 2.",
     "airdate": "January 4, 2004"
@@ -74,7 +83,8 @@
   {
     "episode": 10,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120229061751/arresteddevelopment/images/thumb/0/0f/1x10_Pier_Pressure_%2846%29.png/220px-1x10_Pier_Pressure_%2846%29.png",
-    "byline": "Directed by: Joe Russo - Written by: Mitchell Hurwitz & Jim Vallely",
+    "director": "Joe Russo",
+    "writer": "Mitchell Hurwitz & Jim Vallely",
     "title": "Pier Pressure",
     "synopsis": "Buster realizes that medical marijuana will help cure Lucille 2's vertigo, and pays George Michael to get it for him from G.O.B.. Lindsay sends Maeby to spend a day with Lucille to punish her for bad grades. Michael thinks George Michael is on drugs and attempts to teach him a lesson.",
     "airdate": "January 11, 2004"
@@ -82,7 +92,8 @@
   {
     "episode": 11,
     "screencap": "http://images1.wikia.nocookie.net/__cb20120408205116/arresteddevelopment/images/thumb/2/2e/1x11_Public_Relations_%2828%29.png/220px-1x11_Public_Relations_%2828%29.png",
-    "byline": "Directed by: Lee Shallat-Chemel - Written by: Courtney Lilly",
+    "director": "Lee Shallat-Chemel",
+    "writer": "Courtney Lilly",
     "title": "Public Relations",
     "synopsis": "When George Michael is rejected by a private school due to the family's reputation, Michael hires a publicist from his gym who he's been flirting with to change the public perspective of the Bluths. Meanwhile, Tobias is sent to Boston to reclaim his medical license.",
     "airdate": "January 25, 2004"
@@ -90,7 +101,8 @@
   {
     "episode": 12,
     "screencap": "http://images1.wikia.nocookie.net/__cb20120412050336/arresteddevelopment/images/thumb/8/86/1x12_Marta_Complex_%2804%29.png/220px-1x12_Marta_Complex_%2804%29.png",
-    "byline": "Directed by: Joe Russo - Written by: John Levenstein & Jim Vallely",
+    "director": "Joe Russo",
+    "writer": "John Levenstein & Jim Vallely",
     "title": "Marta Complex",
     "synopsis": "When Lucille throws an anniversary party for Tobias and Lindsay on Valentine's Day, Michael gives an impassioned speech about love. This makes Marta realize she has feelings for him and Lindsay realize she wants a divorce. Buster decides to move out of the penthouse.",
     "airdate": "February 8, 2004"
@@ -98,7 +110,8 @@
   {
     "episode": 13,
     "screencap": "http://images4.wikia.nocookie.net/__cb20120418044435/arresteddevelopment/images/thumb/6/67/1x13_Beef_Consomme_%2837%29.png/220px-1x13_Beef_Consomme_%2837%29.png",
-    "byline": "Directed by: Jay Chandrasekhar - Written by: Martin & Rosenstock",
+    "director": "Jay Chandrasekhar",
+    "writer": "Martin & Rosenstock",
     "title": "Beef Consommé",
     "synopsis": "After learning that Marta has feelings for him, Michael goes to her and they decide to get permission from G.O.B. before taking things to the next level. Meanwhile, Lindsay and Tobias finally get to the heart of his \"never-nude\" problem and George Sr. faces his first hearing.",
     "airdate": "February 15, 2004"
@@ -106,7 +119,8 @@
   {
     "episode": 14,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120429192749/arresteddevelopment/images/thumb/5/5b/1x14_Shock_and_Awww_%2830%29.png/220px-1x14_Shock_and_Awww_%2830%29.png",
-    "byline": "Directed by: Joe Russo - Written by: Chuck Martin & Jim Vallely",
+    "director": "Joe Russo",
+    "writer": "Chuck Martin & Jim Vallely",
     "title": "Shock and Aww",
     "synopsis": "Michael falls for George Michael's ethics teacher, Miss Baerly, whom his son also has a crush on. Meanwhile, Lucille adopts a 14-year-old Korean boy, and George Sr.'s \"Caged Wisdom\" tapes have given him a new admirer.",
     "airdate": "March 7, 2004"
@@ -114,7 +128,8 @@
   {
     "episode": 15,
     "screencap": "http://images1.wikia.nocookie.net/__cb20120514043628/arresteddevelopment/images/thumb/b/be/1x15_Staff_Infection_%2839%29.png/220px-1x15_Staff_Infection_%2839%29.png",
-    "byline": "Directed by: John Fortenberry - Written by: Brad Copeland",
+    "director": "John Fortenberry",
+    "writer": "Brad Copeland",
     "title": "Staff Infection",
     "synopsis": "When Michael discovers his family has been receiving paychecks without working, he forces them all to get jobs within the company. Lindsay questions his management skills, and Tobias checks himself in at George Sr.'s prison to research a film role.",
     "airdate": "March 14, 2003"
@@ -122,7 +137,8 @@
   {
     "episode": 16,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120529061858/arresteddevelopment/images/thumb/5/57/1x16_Altar_Egos_%2825%29.png/220px-1x16_Altar_Egos_%2825%29.png",
-    "byline": "Directed by: Jay Chandrasekhar - Written by: Barbie Adler",
+    "director": "Jay Chandrasekhar",
+    "writer": "Barbie Adler",
     "title": "Altar Egos",
     "synopsis": "Michael attempts to have a one-night stand with an attorney whom he doesn't know is blind. G.O.B. gets married on a dare, Maeby pretends to be a girl with a made up disease, and George Sr.'s admirer turns out to be an undercover SEC agent who has truly fallen for him.",
     "airdate": "March 17, 2004"
@@ -130,7 +146,8 @@
   {
     "episode": 17,
     "screencap": "http://images2.wikia.nocookie.net/__cb20120818210550/arresteddevelopment/images/thumb/5/5a/1x17_Justice_is_Blind_%2818%29.png/220px-1x17_Justice_is_Blind_%2818%29.png",
-    "byline": "Directed by: Jay Chandrasekhar - Written by: Abraham Higginbotham",
+    "director": "Jay Chandrasekhar",
+    "writer": "Abraham Higginbotham",
     "title": "Justice Is Blind",
     "synopsis": "G.O.B. steals a file on the government's case against the Bluth Company that Maggie had given to Michael. Tobias is sent to Maggie's house to get evidence, George Michael tries to prove Maeby's fraud, and Lindsay fights to remove the Ten Commandments from the courthouse lawn.",
     "airdate": "March 21, 2004"
@@ -138,7 +155,8 @@
   {
     "episode": 18,
     "screencap": "http://images1.wikia.nocookie.net/__cb20120819205717/arresteddevelopment/images/thumb/e/e1/1x18_Missing_Kitty_%2814%29.png/220px-1x18_Missing_Kitty_%2814%29.png",
-    "byline": "Directed by: Joe Russo - Written by: Mitchell Hurwitz & John Levenstein",
+    "director": "Joe Russo",
+    "writer": "Mitchell Hurwitz & John Levenstein",
     "title": "Missing Kitty",
     "synopsis": "G.O.B. attempts to make good on his promise to make the family yacht disappear. Lindsay and Maeby try to track down Lindsay's grandmother, Tobias seeks George Sr.'s respect, and Michael attempts to fire Kitty, who claims to have information that could bring down the company.",
     "airdate": "March 28, 2004"
@@ -146,7 +164,8 @@
   {
     "episode": 19,
     "screencap": "http://images2.wikia.nocookie.net/__cb20120825212940/arresteddevelopment/images/thumb/d/de/1x19_Best_Man_for_the_Gob_%2855%29.png/220px-1x19_Best_Man_for_the_Gob_%2855%29.png",
-    "byline": "Directed by: Lee Shallat-Chemel - Written by: Hurwitz & Rosenstock",
+    "director": "Lee Shallat-Chemel",
+    "writer": "Hurwitz & Rosenstock",
     "title": "Best Man for the Gob",
     "synopsis": "George Sr. uses G.O.B.'s bachelor party as an opportunity to set up his accountant in a compromising position so that he can blackmail him. Meanwhile, Michael tries to prove he's a fun guy, and the Fünke's reunite their family folk-music band.",
     "airdate": "April 4, 2004"
@@ -154,7 +173,8 @@
   {
     "episode": 20,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120908164838/arresteddevelopment/images/thumb/1/1b/1x20_Whistler%27s_Mother_%2816%29.png/220px-1x20_Whistler%27s_Mother_%2816%29.png",
-    "byline": "Directed by: Paul Feig - Written by: John Levenstein & Jim Vallely",
+    "director": "Paul Feig",
+    "writer": "John Levenstein & Jim Vallely",
     "title": "Whistler's Mother",
     "synopsis": "Michael deals with numerous requests for some unfrozen money, and chastises Lucille for being too coddling with Buster. Also, Lindsay decides to protest the war to boost her self esteem, Tobias and G.O.B. decide to start a coffee company.",
     "airdate": "April 11, 2004"
@@ -162,7 +182,8 @@
   {
     "episode": 21,
     "screencap": "http://images1.wikia.nocookie.net/__cb20121011214341/arresteddevelopment/images/thumb/b/b5/Not_Without_My_Daughter.png/220px-Not_Without_My_Daughter.png",
-    "byline": "Directed by: Lee Shallat-Chemel - Written by: Hurwitz & Rosenstock",
+    "director": "Lee Shallat-Chemel",
+    "writer": "Hurwitz & Rosenstock",
     "title": "Not Without My Daughter",
     "synopsis": "Michael takes Maeby to work with him on Take Your Daughter to Work Day. After being slighted by Michael, Tobias, George Michael and G.O.B. all go to the mall to prove that they are just manly. Oscar takes Lucille and Buster to Annyong's soccer game.",
     "airdate": "April 25, 2004"
@@ -170,7 +191,8 @@
   {
     "episode": 22,
     "screencap": "http://images2.wikia.nocookie.net/__cb20121014180132/arresteddevelopment/images/thumb/a/a1/1x22_Let_%27Em_Eat_Cake_%2894%29.png/220px-1x22_Let_%27Em_Eat_Cake_%2894%29.png",
-    "byline": "Directed by: Paul Feig - Written by: Mitchell Hurwitz & Jim Vallely",
+    "director": "Paul Feig",
+    "writer": "Mitchell Hurwitz & Jim Vallely",
     "title": "Let 'Em Eat Cake",
     "synopsis": "In the first season finale, George Sr. has a heart attack, and Maeby is jealous when George Michael likes another girl. Meanwhile, Lindsay decides to leave Tobias until a book he wrote a long time ago becomes a gay bestseller, and Buster and Annyong compete over women.",
     "airdate": "June 6, 2004"
@@ -178,7 +200,8 @@
   {
     "episode": 23,
     "screencap": "http://images3.wikia.nocookie.net/__cb20121126014959/arresteddevelopment/images/thumb/b/bb/2x01_The_One_Where_Michael_Leaves_%28003%29.png/220px-2x01_The_One_Where_Michael_Leaves_%28003%29.png",
-    "byline": "Directed by: Lee Shallat-Chemel - Written by: Hurwitz & Rosenstock",
+    "director": "Lee Shallat-Chemel",
+    "writer": "Hurwitz & Rosenstock",
     "title": "The One Where Michael Leaves",
     "synopsis": "George Sr. is at large, making Michael next in line to be prosecuted for the Bluth Company crimes. Meanwhile, Michael is vexed to find that the family is fine without him, and police mistake Oscar for George Sr. and arrest him.",
     "airdate": "November 7, 2004"
@@ -186,7 +209,8 @@
   {
     "episode": 24,
     "screencap": "http://images2.wikia.nocookie.net/__cb20121126041515/arresteddevelopment/images/thumb/f/f6/2x02_The_One_Where_They_Build_a_House_%28103%29.png/220px-2x02_The_One_Where_They_Build_a_House_%28103%29.png",
-    "byline": "Directed by: Patty Jenkins - Written by: Mitchell Hurwitz & Jim Vallely",
+    "director": "Patty Jenkins",
+    "writer": "Mitchell Hurwitz & Jim Vallely",
     "title": "The One Where They Build a House",
     "synopsis": "Michael is driven crazy by G.O.B. when he impresses the board as the new company figurehead due to Michael's legal troubles. Meanwhile, George Sr. is arrested in Mexico for a crime Oscar committed, and Buster witnesses something that utterly shocks him.",
     "airdate": "Nov. 14, 2004"
@@ -194,7 +218,8 @@
   {
     "episode": 25,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120123070132/arresteddevelopment/images/thumb/5/5f/Amigos%21.png/220px-Amigos%21.png",
-    "byline": "Directed by: Lee Shallat-Chemel - Written by: Brad Copeland",
+    "director": "Lee Shallat-Chemel",
+    "writer": "Brad Copeland",
     "title": "¡Amigos!",
     "synopsis": "Michael is increasingly frustrated over being abandoned by the family, and when the staircar is found in Mexico, Michael vows to find his father and give him a piece of his mind. Also, Buster spends time with Lupe's family and thinks he's in Mexico.",
     "airdate": "November 21, 2004"
@@ -202,7 +227,8 @@
   {
     "episode": 26,
     "screencap": "http://images2.wikia.nocookie.net/__cb20121128002106/arresteddevelopment/images/thumb/4/40/2x04_Good_Grief_%2875%29.png/220px-2x04_Good_Grief_%2875%29.png",
-    "byline": "Directed by: Jeff Melman - Written by: John Levenstein",
+    "director": "Jeff Melman",
+    "writer": "John Levenstein",
     "title": "Good Grief",
     "synopsis": "Lucille hires Ice, the bounty hunter to find George Sr., who may be closer than everyone thinks. G.O.B. tries to pull off an elaborate illusion, Maeby tries to set Lindsay up with Ice, and Michael tries to mend George Michael's broken relationship.",
     "airdate": "December 5, 2004"
@@ -210,7 +236,8 @@
   {
     "episode": 27,
     "screencap": "http://images4.wikia.nocookie.net/__cb20121216184824/arresteddevelopment/images/thumb/1/1d/2x05_Sad_Sack_%2857%29.png/220px-2x05_Sad_Sack_%2857%29.png",
-    "byline": "Directed by: Peter Lauer - Written by: Barbie Adler",
+    "director": "Peter Lauer",
+    "writer": "Barbie Adler",
     "title": "Sad Sack",
     "synopsis": "George Sr. fears he's losing Lucille to Oscar; G.O.B. motivates Buster for the Army; Lindsay spends more time with Maeby to get closer to Steve Holt; Tobias starts working out.",
     "airdate": "December 12, 2004"
@@ -218,7 +245,8 @@
   {
     "episode": 28,
     "screencap": "http://images2.wikia.nocookie.net/__cb20121216213840/arresteddevelopment/images/thumb/b/be/2x06_Afternoon_Delight_%2861%29.png/220px-2x06_Afternoon_Delight_%2861%29.png",
-    "byline": "Directed by: Jason Bateman - Written by: Higginbotham & Martin",
+    "director": "Jason Bateman",
+    "writer": "Higginbotham & Martin",
     "title": "Afternoon Delight",
     "synopsis": "G.O.B. stages mass firings after being inadvertently roasted at the Bluth Company Christmas party. Plus, Michael is forced to rebuild the Banana Stand, and Buster plays hooky from the Army at an arcade game.",
     "airdate": "December 19, 2004"
@@ -226,7 +254,8 @@
   {
     "episode": 29,
     "screencap": "http://images3.wikia.nocookie.net/__cb20121216221704/arresteddevelopment/images/thumb/a/a3/2x07_Switch_Hitter_%2864%29.png/220px-2x07_Switch_Hitter_%2864%29.png",
-    "byline": "Directed by: Paul Feig - Written by: Barbie Adler",
+    "director": "Paul Feig",
+    "writer": "Barbie Adler",
     "title": "Switch Hitter",
     "synopsis": "The Bluth's rival development company hires G.O.B., who finds the company president a father figure, in preparation for the Bluth-Sitwell softball game; Lindsay hallucinates from taking anti-depressants.",
     "airdate": "January 16, 2005"
@@ -234,7 +263,8 @@
   {
     "episode": 30,
     "screencap": "http://images2.wikia.nocookie.net/__cb20121216223921/arresteddevelopment/images/thumb/a/ac/2x08_Queen_for_a_Day_%2830%29.png/220px-2x08_Queen_for_a_Day_%2830%29.png",
-    "byline": "Directed by: Andrew Fleming - Written by: Brad Copeland",
+    "director": "Andrew Fleming",
+    "writer": "Brad Copeland",
     "title": "Queen for a Day",
     "synopsis": "Michael sells a portion of his stock in the Bluth Company to buy a car, and Lucille 2 returns, only to discover that Buster is dating the company secretary Starla.",
     "airdate": "January 23, 2005"
@@ -242,7 +272,8 @@
   {
     "episode": 31,
     "screencap": "http://images4.wikia.nocookie.net/__cb20130105014932/arresteddevelopment/images/thumb/e/e4/2x09_Burning_Love_%2833%29.png/220px-2x09_Burning_Love_%2833%29.png",
-    "byline": "Directed by: Paul Feig - Written by: Chuck Martin & Lisa Parsons",
+    "director": "Paul Feig",
+    "writer": "Chuck Martin & Lisa Parsons",
     "title": "Burning Love",
     "synopsis": "Michael reunites with his long, lost love Sally Sitwell, but faces interference from parents; meanwhile, the two Lucilles need someone to bid on them at the bachelorette auction with Buster already in a relationship.",
     "airdate": "January 30, 2005"
@@ -250,7 +281,8 @@
   {
     "episode": 32,
     "screencap": "http://images2.wikia.nocookie.net/__cb20130123231722/arresteddevelopment/images/thumb/1/1f/2x10_Ready%2C_Aim%2C_Marry_Me_%2842%29.png/220px-2x10_Ready%2C_Aim%2C_Marry_Me_%2842%29.png",
-    "byline": "Directed by: Paul Feig - Written by: Mitchell Hurwitz & Jim Vallely",
+    "director": "Paul Feig",
+    "writer": "Mitchell Hurwitz & Jim Vallely",
     "title": "Ready, Aim, Marry Me",
     "synopsis": "With the company in dire financial straits and the Bluths no longer the primary shareholders, Michael must turn to old family friend \"Uncle\" Jack Dorso for financial assistance. Uncle Jack, however, wants something in return.",
     "airdate": "February 13, 2005"
@@ -258,7 +290,8 @@
   {
     "episode": 33,
     "screencap": "http://images2.wikia.nocookie.net/__cb20130123232914/arresteddevelopment/images/thumb/d/db/2x11_Out_on_a_Limb_%2842%29.png/220px-2x11_Out_on_a_Limb_%2842%29.png",
-    "byline": "Directed by: Danny Leiner - Written by: Chuck Martin & Jim Vallely",
+    "director": "Danny Leiner",
+    "writer": "Chuck Martin & Jim Vallely",
     "title": "Out on a Limb",
     "synopsis": "Just as Michael's relationship with Sally Sitwell starts to flourish, Maggie Lizer returns nine months pregnant, and Michael immediately assumes he's the father; also, George Michael attempts to break up with Ann, and Buster learns he's being deployed to Iraq.",
     "airdate": "March 6, 2005"
@@ -266,7 +299,8 @@
   {
     "episode": 34,
     "screencap": "http://images2.wikia.nocookie.net/__cb20130123233402/arresteddevelopment/images/thumb/e/e7/2x12_Hand_to_God_%2817%29.png/220px-2x12_Hand_to_God_%2817%29.png",
-    "byline": "Directed by: Joe Russo - Written by: Mitchell Hurwitz & Chuck Martin",
+    "director": "Joe Russo",
+    "writer": "Mitchell Hurwitz & Chuck Martin",
     "title": "Hand to God",
     "synopsis": "Michael tries to find out who's the father of Maggie's baby, or if it's just another of her lies; G.O.B. tries to find out whether he was responsible for Buster's accident.",
     "airdate": "March 6, 2005"
@@ -274,7 +308,8 @@
   {
     "episode": 35,
     "screencap": "http://images4.wikia.nocookie.net/__cb20130123234628/arresteddevelopment/images/thumb/0/05/2x13_Motherboy_XXX_%2807%29.png/220px-2x13_Motherboy_XXX_%2807%29.png",
-    "byline": "Directed by: Joe Russo - Written by: Mitchell Hurwitz & Jim Vallely",
+    "director": "Joe Russo",
+    "writer": "Mitchell Hurwitz & Jim Vallely",
     "title": "Motherboy XXX",
     "synopsis": "Lucille abducts George Michael for a mother-son dance; Buster adjusts to having a hook for a hand; G.O.B. reunites with his estranged wife; Tobias stars as George Sr. in a biopic about the Bluth family, which causes Lindsay to become more attracted to him.",
     "airdate": "March 13, 2005"
@@ -282,7 +317,8 @@
   {
     "episode": 36,
     "screencap": "http://images4.wikia.nocookie.net/__cb20130129170406/arresteddevelopment/images/thumb/5/5c/2x14_The_Immaculate_Election_%2897%29.png/220px-2x14_The_Immaculate_Election_%2897%29.png",
-    "byline": "Directed by: Anthony Russo - Written by: Adler & Higginbotham",
+    "director": "Anthony Russo",
+    "writer": "Adler & Higginbotham",
     "title": "The Immaculate Election",
     "synopsis": "George Michael runs for student body president, which G.O.B. manages to ruin; Buster has an affair with Lupe, who is being sought after by Lindsay; Tobias attempts to move out of the model home, then develops a new persona when he regrets his decision.",
     "airdate": "March 20, 2005"
@@ -290,7 +326,8 @@
   {
     "episode": 37,
     "screencap": "http://images1.wikia.nocookie.net/__cb20130202002128/arresteddevelopment/images/thumb/8/82/2x15_Sword_of_Destiny_%2861%29.png/220px-2x15_Sword_of_Destiny_%2861%29.png",
-    "byline": "Directed by: Peter Lauer - Written by: Brad Copeland",
+    "director": "Peter Lauer",
+    "writer": "Brad Copeland",
     "title": "Sword of Destiny",
     "synopsis": "G.O.B. and Buster team up for some magic illusions to impress Tony Wonder, a rival magician. Meanwhile, Michael is forced to delegate some work when he's hospitalized and Lindsay teaches George Michael how to drive using the staircar.",
     "airdate": "March 27, 2005"
@@ -298,7 +335,8 @@
   {
     "episode": 38,
     "screencap": "http://images1.wikia.nocookie.net/__cb20130202002554/arresteddevelopment/images/thumb/c/c7/2x16_Meat_the_Veals_%2826%29.png/220px-2x16_Meat_the_Veals_%2826%29.png",
-    "byline": "Directed by: Joe Russo - Written by: Barbie Adler & Richard Rosenstock",
+    "director": "Joe Russo",
+    "writer": "Barbie Adler & Richard Rosenstock",
     "title": "Meat the Veals",
     "synopsis": "George Sr. tries to find a way to attend an anniversary dinner for Lucille; Michael deliberatly offends Ann's devout Christian parents; Tobias goes overboard performing his \"Mrs. Featherbottom\" persona.",
     "airdate": "April 3, 2005"
@@ -306,7 +344,8 @@
   {
     "episode": 39,
     "screencap": "http://images3.wikia.nocookie.net/__cb20130204205846/arresteddevelopment/images/thumb/7/72/2x17_Spring_Breakout_%2837%29.png/220px-2x17_Spring_Breakout_%2837%29.png",
-    "byline": "Directed by: Anthony Russo - Written by: Adler & Higginbotham",
+    "director": "Anthony Russo",
+    "writer": "Adler & Higginbotham",
     "title": "Spring Breakout",
     "synopsis": "G.O.B. confronts the editor of the videos that showcased his magic mistakes; Michael tricks Lucille in to rehab, and then attempts to get her out after George Sr. is kidnapped.",
     "airdate": "April 10, 2005"
@@ -314,7 +353,8 @@
   {
     "episode": 40,
     "screencap": "http://images1.wikia.nocookie.net/__cb20130204213104/arresteddevelopment/images/thumb/d/dd/2x18_Righteous_Brothers_%2862%29.png/220px-2x18_Righteous_Brothers_%2862%29.png",
-    "byline": "Directed by: Chuck Martin - Written by: Mitchell Hurwitz & Jim Vallely",
+    "director": "Chuck Martin",
+    "writer": "Mitchell Hurwitz & Jim Vallely",
     "title": "Righteous Brothers",
     "synopsis": "G.O.B. hides George Sr. while the model home's plumbing is checked; George Michael helps Ann protest Maeby's new movie; Tobias takes a liking to Kitty after Michael asks him to keep an eye on her.",
     "airdate": "April 17, 2005"
@@ -322,7 +362,8 @@
   {
     "episode": 41,
     "screencap": "http://images4.wikia.nocookie.net/__cb20130320181624/arresteddevelopment/images/thumb/6/6a/3x01_The_Cabin_Show_%2876%29.png/220px-3x01_The_Cabin_Show_%2876%29.png",
-    "byline": "Directed by: Paul Feig - Written by: Mitchell Hurwitz & Jim Vallely",
+    "director": "Paul Feig",
+    "writer": "Mitchell Hurwitz & Jim Vallely",
     "title": "The Cabin Show",
     "synopsis": "Michael postpones camping with his son to look for his father in Reno. Meanwhile, Lucille goes off her medication; G.O.B. meets a fellow disappointed son; and Maeby and George Michael can't help being thrown together.",
     "airdate": "September 19, 2005"
@@ -330,7 +371,8 @@
   {
     "episode": 42,
     "screencap": "http://images2.wikia.nocookie.net/__cb20120512173932/arresteddevelopment/images/thumb/d/d5/FBEO.png/220px-FBEO.png",
-    "byline": "Directed by: John Fortenberry - Written by: Mitchell Hurwitz & Richard Day",
+    "director": "John Fortenberry",
+    "writer": "Mitchell Hurwitz & Richard Day",
     "title": "For British Eyes Only",
     "synopsis": "Investigating his father's claim that a British group set him up, Michael goes to \"Wee Britain\" and is smitten with a beautiful woman named Rita. Lindsay attempts to seduce the new family attorney, and G.O.B. goes to extremes to avoid his newly discovered son.",
     "airdate": "September 26, 2005"
@@ -338,7 +380,8 @@
   {
     "episode": 43,
     "screencap": "http://images1.wikia.nocookie.net/__cb20120512174512/arresteddevelopment/images/thumb/2/28/Forget-Me-Now.png/220px-Forget-Me-Now.png",
-    "byline": "Directed by: John Amodeo - Written by: Tom Saunders",
+    "director": "John Amodeo",
+    "writer": "Tom Saunders",
     "title": "Forget-Me-Now",
     "synopsis": "Michael tries to hide Rita from his family with disastrous results; Lindsay waits hand and foot on the Bluths' new lawyer; George Sr. attempts escaping via balloons; Tobias tries to help Buster gain some self-confidence; George Michael confronts Steve Holt about Maeby.",
     "airdate": "October 3, 2005"
@@ -346,7 +389,8 @@
   {
     "episode": 44,
     "screencap": "http://images4.wikia.nocookie.net/__cb20120512175651/arresteddevelopment/images/thumb/c/cc/Notapusy.png/220px-Notapusy.png",
-    "byline": "Directed by: Lev L. Spiro - Written by: Rob Weiner",
+    "director": "Lev L. Spiro",
+    "writer": "Rob Weiner",
     "title": "Notapusy",
     "synopsis": "Michael enters a father-son triathlon with Steve Holt; Maeby dons a disguise to compete in an inner-beauty pageant while her parents coach other entrants; George Sr. speaks to at-risk youths, and Buster tries to recruit one to replace him in the Army.",
     "airdate": "November 7, 2005"
@@ -354,7 +398,8 @@
   {
     "episode": 45,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120512180649/arresteddevelopment/images/thumb/b/bc/Mr._F.png/220px-Mr._F.png",
-    "byline": "Directed by: Arlene Sanford - Written by: Richard Day & Jim Vallely",
+    "director": "Arlene Sanford",
+    "writer": "Richard Day & Jim Vallely",
     "title": "Mr. F",
     "synopsis": "Moles underground alert the Bluths to a mole in their company; Tobias mistakes a CIA agent for a theatrical one.",
     "airdate": "November 7, 2005"
@@ -362,7 +407,8 @@
   {
     "episode": 46,
     "screencap": "http://images4.wikia.nocookie.net/__cb20120512181325/arresteddevelopment/images/thumb/5/58/The_Ocean_Walker.png/220px-The_Ocean_Walker.png",
-    "byline": "Directed by: Paul Feig - Written by: Jake Farrow & Sam Laybourne",
+    "director": "Paul Feig",
+    "writer": "Jake Farrow & Sam Laybourne",
     "title": "The Ocean Walker",
     "synopsis": "Michael's parents disapprove of him marrying Rita until a revelation from her uncle.",
     "airdate": "December 5, 2005"
@@ -370,7 +416,8 @@
   {
     "episode": 47,
     "screencap": "http://images2.wikia.nocookie.net/__cb20120512182036/arresteddevelopment/images/thumb/9/93/Prison_Break-In.png/220px-Prison_Break-In.png",
-    "byline": "Directed by: Robert Berlinger - Written by: Karey Dornetto",
+    "director": "Robert Berlinger",
+    "writer": "Karey Dornetto",
     "title": "Prison Break-In",
     "synopsis": "Michael is worried when he learns that Lucille is dating the warden behind his father's back; Buster's new turtle gets into \"Uncle-Father\" Oscar's stash; the family plans a benefit for Tobias' life-endangering hair transplant.",
     "airdate": "December 12, 2005"
@@ -378,7 +425,8 @@
   {
     "episode": 48,
     "screencap": "http://images1.wikia.nocookie.net/__cb20120512182922/arresteddevelopment/images/thumb/b/b5/Making_a_Stand.png/220px-Making_a_Stand.png",
-    "byline": "Directed by: Peter Lauer - Written by: Mitchell Hurwitz & Chuck Tatham",
+    "director": "Peter Lauer",
+    "writer": "Mitchell Hurwitz & Chuck Tatham",
     "title": "Making a Stand",
     "synopsis": "Michael and G.O.B. set out to teach their father a lesson for his years of pitting them against each other; Lindsay and Tobias compete over Bob Loblaw; Lucille's post-op appearance inspires Maeby.",
     "airdate": "December 19, 2005"
@@ -386,7 +434,8 @@
   {
     "episode": 49,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120512183659/arresteddevelopment/images/thumb/2/2d/S.O.B.s.png/220px-S.O.B.s.png",
-    "byline": "Directed by: Robert Berlinger - Written by: Richard Day & Jim Vallely",
+    "director": "Robert Berlinger",
+    "writer": "Richard Day & Jim Vallely",
     "title": "S.O.B.s",
     "synopsis": "The Bluths try to save themselves with a party featuring Andy Richter, whose quintuplet brother teaches George Michael; G.O.B. accidentally lands a job.",
     "airdate": "January 2, 2006"
@@ -394,7 +443,8 @@
   {
     "episode": 50,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120512184043/arresteddevelopment/images/thumb/b/b9/Fakin%27_It.png/220px-Fakin%27_It.png",
-    "byline": "Directed by: Lev L. Spiro - Written by: Dean Lorey & Chuck Tatham",
+    "director": "Lev L. Spiro",
+    "writer": "Dean Lorey & Chuck Tatham",
     "title": "Fakin' It",
     "synopsis": "Judge Reinhold presides over George Sr.'s mock trial, and Michael worries about a surprise witness. Meanwhile, a coma keeps Buster from testifying.",
     "airdate": "February 10, 2006"
@@ -402,7 +452,8 @@
   {
     "episode": 51,
     "screencap": "http://images1.wikia.nocookie.net/__cb20120512184409/arresteddevelopment/images/thumb/c/ce/Family_Ties.png/220px-Family_Ties.png",
-    "byline": "Directed by: Robert Berlinger - Written by: Ron Weiner",
+    "director": "Robert Berlinger",
+    "writer": "Ron Weiner",
     "title": "Family Ties",
     "synopsis": "When Michael hires a woman who may be his sister, her services might be just what the company needs. Meanwhile, Buster's coma attracts the attention of a politician.",
     "airdate": "February 10, 2006"
@@ -410,7 +461,8 @@
   {
     "episode": 52,
     "screencap": "http://images3.wikia.nocookie.net/__cb20120512184825/arresteddevelopment/images/thumb/e/e8/Exit_Strategy.png/220px-Exit_Strategy.png",
-    "byline": "Directed by: Rebecca E. Asher - Written by: Mitchell Hurwitz & Jim Vallely",
+    "director": "Rebecca E. Asher",
+    "writer": "Mitchell Hurwitz & Jim Vallely",
     "title": "Exit Strategy",
     "synopsis": "The Bluth boys find a web of mass deception in Iraq when Michael and Buster rescue G.O.B., who was imprisoned while on a USO tour. Meanwhile, George Michael plans a Sweet 16 surprise party for Maeby.",
     "airdate": "February 10, 2006"
@@ -418,7 +470,8 @@
   {
     "episode": 53,
     "screencap": "http://images4.wikia.nocookie.net/__cb20130323224936/arresteddevelopment/images/thumb/b/b9/3x13_Development_Arrested_%2895%29.png/220px-3x13_Development_Arrested_%2895%29.png",
-    "byline": "Directed by: John Fortenberry - Written by: Richard Day, Mitchell Hurwitz, Chuck Tatham, & Jim Vallely",
+    "director": "John Fortenberry",
+    "writer": "Richard Day, Mitchell Hurwitz, Chuck Tatham, & Jim Vallely",
     "title": "Development Arrested",
     "synopsis": "Lucille throws a yacht party to celebrate the family's recent success, but the Bluths learn the sailing is still far from smooth.",
     "airdate": "February 10, 2006"

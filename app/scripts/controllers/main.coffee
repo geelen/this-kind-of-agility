@@ -12,5 +12,3 @@ angular.module('datApp')
     $scope.anotherEp = ->
       $scope.chosenEp = undefined
       $timeout(randomEp, 1000)
-    $scope.seasonNr = ->
-

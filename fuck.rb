@@ -8,7 +8,8 @@ data = doc.css('#mw-content-text >div:nth-of-type(3n+4)').each_with_index.map { 
   {
     episode: i + 1,
     screencap: ffs.css('>div >a >img').attr('data-src').value,
-    byline: ffs.css('>div:nth-child(3)').text,
+    director: ffs.css('>div:nth-child(3)').text.split(/ *[:-] /)[1],
+    writer: ffs.css('>div:nth-child(3)').text.split(/ *[:-] /)[3],
     title: ffs.css('>div:nth-child(2) a').text,
     synopsis: ffs.css('>div:nth-child(4)').text,
     airdate: ffs.css('>div:nth-child(2) span').text
