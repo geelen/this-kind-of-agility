@@ -12,6 +12,6 @@ data = doc.css('#mw-content-text >div:nth-of-type(3n+4)').map { |ffs|
     synopsis: ffs.css('>div:nth-child(4)').text,
     airdate: ffs.css('>div:nth-child(2) span').text
   }
-}
+}[0,53]
 
 puts JSON.pretty_generate(data)

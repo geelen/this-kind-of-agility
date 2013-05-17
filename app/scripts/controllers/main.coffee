@@ -1,5 +1,6 @@
 'use strict'
 
 angular.module('datApp')
-  .controller 'MainCtrl', ($scope, EpisodeScreencaps) ->
-    $scope.image = EpisodeScreencaps[0]
+  .controller 'MainCtrl', ($scope, $http) ->
+    $http.get('/fuckyes.json').success (data) ->
+      $scope.episodes = data
