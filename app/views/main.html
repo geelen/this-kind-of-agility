@@ -38,6 +38,18 @@
             Looking for something different? <strong>Shoot me!</strong>
           </a>
         </div>
+    <div class="row" ng-hide='chosenEp'>
+      SEARCHING...
+    </div>
+    <div class="row" ng-show='chosenEp'>
+      <div class='episode-meta column push-1 span-5'>
+        <div class="episode-number">
+          <span class="hash">#</span>{{chosenEp.episode}}<span class="of">of</span>{{ episodes.length }}
+        </div>
+        <h2>{{ chosenEp.title }}</h2>
+        <h3>{{ chosenEp.byline }}</h3>
+        <p>{{ chosenEp.synopsis }} </p>
+        <p>Aired on: {{ chosenEp.airdate }} </p>
       </div>
     </div>
   </div>
@@ -48,7 +60,12 @@
     <div class="row">
       <div class="column push-3 span-3">
         <img src="images/we-heart-arrested.png" alt="We heart Arrested Development!">
+    <div class="row" ng-show='chosenEp'>
+      <div class="screencap column span-2">
+        <img ng-src='{{ chosenEp.screencap }}'>
       </div>
     </div>
+
+    <a href ng-click='anotherEp()'>SOMETHING ELSE</a>
   </div>
 </section>

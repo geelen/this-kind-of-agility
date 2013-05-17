@@ -8,5 +8,3 @@ angular.module('datApp',[])
         controller: 'MainCtrl'
       .otherwise
         redirectTo: '/'
-
-  .service 'Episodes', ($http) ->
