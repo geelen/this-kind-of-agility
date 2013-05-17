@@ -1,12 +1,8 @@
 
 .top
-  min-height: 12 * $vertical-pacing
   background-color: #f47b22
   background: url(../images/tobias-jumping.gif)
   background-size: cover
-
-.bottom
-  background-color: darken(white, 10%)
 
 .header
   padding: $vertical-pacing 0
@@ -15,7 +11,64 @@
     text-align: right
     padding-top: 16px
 
+.bottom
+  padding-top: $vertical-pacing
+
+.footer
+  min-height: 135px
+  background: url(../images/we-heart-arrested.png) no-repeat bottom right
+  .we-heart-arrested
+    display: block
+    text-indent: -9999em
+
 .screencap
   text-align: right
   img
     width: 180px
+    +box-shadow(0 0 5px rgba(#000, 0.5))
+
+.episode
+  padding: $vertical-pacing * 2 0
+  .episode-number
+    @extend .display
+    font-size: 1.5em
+    .of
+      @extend .fancy
+  .season-meta
+    @extend .display
+    text-transform: uppercase     
+    .episode
+      color: $season-episode-color
+    .divider
+      color: $season-divider-color
+  .description
+    p
+      margin: 0
+
+.btn
+  z-index: 10
+  +transition(background 0.3s)
+  +box-shadow(0 3px 0 rgba(#000, 0.1))
+  +border-radius(3px)
+  width: 100%
+  position: relative
+  display: block
+  background: $button-background-color
+  padding: 8px 10px
+  text-align: right
+  text-decoration: none
+  margin-top: 60px
+  color: #fff
+  &.shoot-me
+    position: absolute
+    top: 20px
+  &:before
+    content: ""
+    width: 94px
+    height: 88px
+    background: url(../images/shoot-me.png) no-repeat
+    position: absolute
+    bottom: 0
+    left: 5px
+  &:hover
+    background: $button-background-hover-color
