@@ -9,5 +9,21 @@
         A random Arrested Development episode selector machine.
       </aside>
     </header>
+
+    <div class="row">
+      <div class='episode-meta column push-1 span-5'>
+        <div class="episode-number">
+          <span class="hash">#</span>1<span class="of">of</span>53
+        </div>
+        <h2>The One Where They Build a House</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="screencap column span-2">
+        <img ng-repeat='image in demImages' ng-src='{{image}}'>
+      </div>
+    </div>
   </div>
 </section>
+
