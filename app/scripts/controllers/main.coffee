@@ -2,4 +2,4 @@
 
 angular.module('datApp')
   .controller 'MainCtrl', ($scope, EpisodeScreencaps) ->
-    $scope.demImages = EpisodeScreencaps
+    $scope.image = EpisodeScreencaps[0]
