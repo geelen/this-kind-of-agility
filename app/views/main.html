@@ -23,35 +23,33 @@
           <h2>{{ chosenEp.title }}</h2>
         </div>
       </div>
+    </div>
 
-      <div class="row">
-        <div class="screencap column span-2">
-          <img ng-src='{{image}}'>
-        </div>
-        <div class="description column span-4">
-          <p>{{ chosenEp.synopsis }}</p>
-        </div>
+    <div class="row">
+      <div class="screencap column span-2">
+        <img ng-src='{{chosenEp.screencap}}'>
       </div>
+      <div class="description column span-4">
+        <p>{{ chosenEp.synopsis }}</p>
+      </div>
+    </div>
 
-      <div class="row">
-        <div class="column push-2 span-3 pull-1">
-          <a href="#" class="btn shoot-me">
-            Looking for something different? <strong>Shoot me!</strong>
-          </a>
-        </div>
-    <div class="row" ng-hide='chosenEp'>
-      SEARCHING...
+    <div class="row">
+      <div class="column push-2 span-3 pull-1">
+        <a href="" ng-click='anotherEp()' class="btn shoot-me">
+          Looking for something different? <strong>Shoot me!</strong>
+        </a>
+      </div>
     </div>
     <div class="row" ng-show='chosenEp'>
       <div class='episode-meta column push-1 span-5'>
         <h3>{{ chosenEp.byline }}</h3>
-        <p>Aired on: {{ chosenEp.airdate }} </p>
+        <p>Aired on: {{ chosenEp.airdate }}</p>
       </div>
     </div>
   </div>
 </section>
 
-<a href ng-click='anotherEp()'>SOMETHING ELSE</a>
 <section class="bottom">
   <div class="grid footer">
     <div class="row">
