@@ -10,16 +10,17 @@
       </aside>
     </header>
 
-    <div class="episode">
+    <div class="episode" ng-show='chosenEp'>
       <div class="row">
         <div class='episode-meta column push-1 span-5'>
           <div class="episode-number">
-            <sup class="hash">#</sup>1 <span class="of">of</span> 53
+            <sup class="hash">#</sup>{{chosenEp.episode}}
+            <span class="of">of</span> {{episodes.length}}
           </div>
           <div class="season-meta">
             <span class="season">Season 1</span> <span class="divider">/</span> <span class="episode">Episode 1</span>
           </div>
-          <h2>The One Where They Build a House</h2>
+          <h2>{{ chosenEp.title }}</h2>
         </div>
       </div>
 
@@ -28,7 +29,7 @@
           <img ng-src='{{image}}'>
         </div>
         <div class="description column span-4">
-          <p>Michael and George Michael leave for Phoenix but go back to ensure the family misses them. Lindsay's desire for an open marriage causes Tobias to try to join the Blue Man Group, because he thinks they are a support group for depressed men. Lucille signs Buster up for the Army after being goaded by a Michael Moore lookalike. Gob becomes president of the Bluth company.</p>
+          <p>{{ chosenEp.synopsis }}</p>
         </div>
       </div>
 
@@ -43,29 +44,20 @@
     </div>
     <div class="row" ng-show='chosenEp'>
       <div class='episode-meta column push-1 span-5'>
-        <div class="episode-number">
-          <span class="hash">#</span>{{chosenEp.episode}}<span class="of">of</span>{{ episodes.length }}
-        </div>
-        <h2>{{ chosenEp.title }}</h2>
         <h3>{{ chosenEp.byline }}</h3>
-        <p>{{ chosenEp.synopsis }} </p>
         <p>Aired on: {{ chosenEp.airdate }} </p>
       </div>
     </div>
   </div>
 </section>
 
+<a href ng-click='anotherEp()'>SOMETHING ELSE</a>
 <section class="bottom">
   <div class="grid footer">
     <div class="row">
       <div class="column push-3 span-3">
         <img src="images/we-heart-arrested.png" alt="We heart Arrested Development!">
-    <div class="row" ng-show='chosenEp'>
-      <div class="screencap column span-2">
-        <img ng-src='{{ chosenEp.screencap }}'>
       </div>
     </div>
-
-    <a href ng-click='anotherEp()'>SOMETHING ELSE</a>
   </div>
 </section>
