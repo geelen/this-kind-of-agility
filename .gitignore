@@ -1,5 +1,8 @@
+.DS_Store
 node_modules
 dist
 .tmp
 .sass-cache
 app/components
+netflix-full-catalog.xml
+netflix-full-catalog.xml.gz
