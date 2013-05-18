@@ -82,7 +82,7 @@ private
   end
 
   def close_film_element
-    if @current_film['availability'] && @current_film['title'] =~ /arrested development/i
+    if @current_film['availability'] && @current_film['title'] =~ /arrested development: season [0-9]:/i
       @films << @current_film
     end
   end
