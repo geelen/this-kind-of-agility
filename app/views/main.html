@@ -34,9 +34,14 @@
       </div>
 
       <div class="row">
-        <div class="column push-2 span-3 pull-1">
+        <div class="column push-2 span-2">
           <a href="" ng-click='anotherEp()' class="btn shoot-me">
             Looking for something different? <strong>Shoot me!</strong>
+          </a>
+        </div>
+        <div class="column span-2">
+          <a href="" ng-click='' class="btn marry-me">
+            Watch it on <strong>Netflix? Marry me!</strong>
           </a>
         </div>
       </div>
@@ -48,14 +53,21 @@
   <div class="grid">
     <div class="row" ng-class='{choosing: !chosenEp}'>
 
-      <dl class='episode-meta column push-1 span-5'>
+      <div class="episode-facts column push-1 span-3">
+        <h3>Episode Facts <a href="#">(from Recurring Developments)</a></h3>
+        <p>Michael refers to the staff as sheep. When we see the staff as a group, there is often a man in a black shirt lagging behind the rest—the black sheep. || Warden Gentles, played by James Lipton, describes himself as "an appreciator of the arts." Lipton is best known as the host of Bravo's <em>Inside the Actors Studio</em>.</p>
+      </div>
+
+      <dl class='episode-details column span-2'>
         <dt>Directed by</dt>
           <dd>{{ chosenEp.director }}</dd>
         <dt>Written by</dt>
           <dd>{{ chosenEp.writer }}</dd>
-        <dt>Aired by</dt>
+        <dt>Aired on</dt>
           <dd>{{ chosenEp.airdate }}</dd>
       </dl>
+
+
     </div>
   </div>
 </section>

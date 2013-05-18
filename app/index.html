@@ -12,6 +12,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="components/normalize-css/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="components/modernizr/modernizr.js"></script>
 
     <script type="text/javascript">
       (function() {
@@ -24,8 +25,12 @@
     </script>
   </head>
   <body ng-app="datApp">
-    <!--[if lt IE 7]>
-      <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <!--[if lt IE 8]>
+      <div class="chromeframe">
+        <h1>Oh Michael, you blowhard!</h1>
+        <p>You are using an outdated browser, which is a shame, because it means you can't use <strong>This Kind Of Agility</strong>.</p>
+        <p><a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to join the party.</p>
+      </div>
     <![endif]-->
 
     <!--[if lt IE 9]>
@@ -36,9 +41,8 @@
     <!-- Add your site or application content here -->
     <div class="stage" ng-view></div>
 
-    <script src="components/angular/angular.js"></script>
-
     <!-- build:js scripts/scripts.js -->
+    <script src="components/angular/angular.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <!-- endbuild -->

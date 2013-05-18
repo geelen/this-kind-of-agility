@@ -1,12 +1,21 @@
 
+.chromeframe
+  width: 320px
+  margin: 0 auto
+  padding: 50px 0
+  color: #444
+  a, h1
+    color: $color-orange
+
 .top
-  background-color: #f47b22
-  background: url(../images/tobias-jumping.gif)
+  background: $site-background-color url(../images/tobias-jumping.gif)
   background-size: cover
-  min-height: 600px
+  min-height: 640px
+  .lt-ie9 &
+    background: $site-background-color
 
 .header
-  padding: $vertical-pacing 0
+  padding: $vertical-pacing 0 $vertical-pacing * 4
   aside
     @extend .fancy
     text-align: right
@@ -32,8 +41,6 @@
     width: 180px
     +box-shadow(0 0 5px rgba(#000, 0.5))
 
-.episode
-  padding: $vertical-pacing * 2 0 $vertical-pacing
 .episode-number
   @extend .display
   font-size: 1.5em
@@ -46,10 +53,13 @@
     color: $season-episode-color
   .divider
     color: $season-divider-color
-.episode-meta
-  padding-top: $vertical-pacing / 2
+.episode-details, .episode-facts
+  padding-top: $vertical-pacing
+.episode-details
+  margin: $vertical-pacing / 2  0 0
   dt
     font-weight: bold
+    clear: left
     float: left
     width: 100px
     padding: 5px 0
@@ -57,13 +67,28 @@
     margin: 0
     padding: 5px 0
     padding-left: 100px
+.episode-facts
+  h3
+    margin: 0 0 10px
+    a
+      +transition(color 0.3s)
+      @extend .fancy
+      text-decoration: none
+      font-weight: normal
+      color: $color-orange
+      border-bottom: 1px dotted $color-border-orange
+      font-size: 1em
+      &:hover
+        color: $color-dark-orange
+  p
+    margin: 0
 .episode-description
   p
     margin: 0
 
 .btn
   z-index: 10
-  +transition(background 0.3s)
+  +transition(background 0.3s, border-color 0.3s, box-shadow 0.3s)
   +box-shadow(0 3px 0 rgba(#000, 0.1))
   +border-radius(3px)
   width: 100%
@@ -73,19 +98,30 @@
   padding: 8px 10px
   text-align: right
   text-decoration: none
-  margin-top: 60px
+  margin-top: 35px
   color: #fff
-  &.shoot-me
-    position: absolute
-    top: 0
-    padding-left: 90px
+  border: 1px solid darken($button-background-color, 2%)
   &:before
     content: ""
-    width: 94px
-    height: 88px
-    background: url(../images/shoot-me.png) no-repeat
     position: absolute
     bottom: 0
-    left: 0
   &:hover
+    border-color: darken($button-background-hover-color, 2%)
     background: $button-background-hover-color
+    +box-shadow(0 3px 0 rgba($button-background-hover-color, 0.25))
+  &.shoot-me
+    top: 15px
+    padding-left: 90px
+    &:before
+      left: 0
+      width: 94px
+      height: 88px
+      background: url(../images/shoot-me.png) no-repeat
+  &.marry-me
+    top: 15px
+    padding-left: 100px
+    &:before
+      left: 20px
+      width: 87px
+      height: 71px
+      background: url(../images/marry-me.png) no-repeat
