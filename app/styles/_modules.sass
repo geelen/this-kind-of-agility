@@ -7,13 +7,6 @@
   a, h1
     color: $color-orange
 
-.top
-  background-color: $site-background-color
-  background-size: cover
-  min-height: 640px
-  .lt-ie9 &
-    background: $site-background-color
-
 .header
   padding: $vertical-pacing 0 $vertical-pacing * 4
   aside
@@ -21,8 +14,19 @@
     text-align: right
     padding-top: 16px
 
+.top
+  background-color: $site-background-color
+  background-size: cover
+  min-height: 640px
+  a
+    color: #fff
+  .lt-ie9 &
+    background: $site-background-color
+
 .bottom
   color: #222
+  a
+    color: $color-orange
 
 .stage
   min-height: 100%
@@ -104,6 +108,7 @@
   margin-top: 35px
   color: #fff
   border: 1px solid darken($button-background-color, 2%)
+  border-bottom: none
   &:before
     content: ""
     position: absolute
