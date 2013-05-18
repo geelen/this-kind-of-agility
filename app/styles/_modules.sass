@@ -35,10 +35,18 @@
   padding-bottom: 175px
   background: url(../images/we-heart-arrested.png) no-repeat bottom
 
-.footer
-  text-align: right
-  img
-    vertical-align: bottom
+footer.who
+  border-top: 1px solid #eee
+  padding-top: 5px
+  margin-top: $vertical-pacing
+  @extend .fancy
+  font-size: 0.9125em
+  color: #999
+  a
+    +transition(color 0.3s)
+    color: #666
+    &:hover
+      color: #222
 
 .screencap
   min-height: 105px
