@@ -17,7 +17,7 @@
   color: #222
 
 .stage
-  height: 100%
+  min-height: 100%
   padding-bottom: 175px
   background: url(../images/we-heart-arrested.png) no-repeat bottom
 
@@ -48,9 +48,15 @@
   .divider
     color: $season-divider-color
 .episode-meta
-  list-style: none
-  li
-    line-height: 1.75em
+  dt
+    font-weight: bold
+    float: left
+    width: 100px
+    padding: 5px 0
+  dd
+    margin: 0
+    padding: 5px 0
+    padding-left: 100px
 .episode-description
   p
     margin: 0
@@ -72,6 +78,7 @@
   &.shoot-me
     position: absolute
     top: 20px
+    padding-left: 90px
   &:before
     content: ""
     width: 94px
@@ -79,6 +86,6 @@
     background: url(../images/shoot-me.png) no-repeat
     position: absolute
     bottom: 0
-    left: 5px
+    left: 0
   &:hover
     background: $button-background-hover-color

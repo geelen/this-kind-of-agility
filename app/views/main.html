@@ -47,11 +47,15 @@
 <section class="bottom">
   <div class="grid">
     <div class="row" ng-show='chosenEp'>
-      <ul class='episode-meta column push-1 span-5'>
-        <li><strong>Directed by:</strong> {{ chosenEp.director }}</li>
-        <li><strong>Written by:</strong> {{ chosenEp.writer }}</li>
-        <li><strong>Aired on:</strong> {{ chosenEp.airdate }}</li>
-      </ul>
+
+      <dl class='episode-meta column push-1 span-5'>
+        <dt>Directed by</dt>
+          <dd>{{ chosenEp.director }}</dd>
+        <dt>Written by</dt>
+          <dd>{{ chosenEp.writer }}</dd>
+        <dt>Aired by</dt>
+          <dd>{{ chosenEp.airdate }}</dd>
+      </dl>
     </div>
   </div>
 </section>

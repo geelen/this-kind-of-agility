@@ -1,0 +1,27 @@
+@media only screen and (max-width: 767px)
+  .grid
+    width: 320px
+
+    .row
+      .column
+        float: none
+
+        @for $i from 1 through $grid-num-columns
+          &.span-#{$i}
+            width: 260px
+
+        @for $i from 1 through ($grid-num-columns - 1)
+          &.push-#{$i}
+            margin-left: 0
+          &.pull-#{$i}
+            margin-right: 0
+
+  .stage
+    background-size: 280px
+
+  .screencap
+    text-align: left
+    img
+      width: 100%
+      height: auto
+      margin-bottom: $vertical-pacing / 2
