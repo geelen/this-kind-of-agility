@@ -54,8 +54,8 @@
     <div class="row choosable" ng-show='chosenEp' ng-class='{choosing: choosing}'>
 
       <div class="episode-facts column push-1 span-3">
-        <h3>Episode Facts <a href="#">(from Recurring Developments)</a></h3>
-        <p>{{ chosenEp.facts || "Ahem. Looks like we can't find any facts for this episode." }}</p>
+        <h3>Episode Facts <a href="http://recurringdevelopments.com/">(from Recurring Developments)</a></h3>
+        <p ng-bind-html-unsafe="chosenEp.fun_fact || 'Ahem. Looks like we can\'t find any facts for this episode.'"></p>
       </div>
 
       <dl class='episode-details column span-2'>
