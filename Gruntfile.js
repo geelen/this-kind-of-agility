@@ -249,7 +249,7 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.app %>',
           dest: '<%= yeoman.dist %>',
           src: [
-            '*.{ico,txt}',
+            '*.{ico,txt,json}',
             '.htaccess',
             'components/**/*',
             'images/{,*/}*.{gif,webp}'
@@ -282,7 +282,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:dist',
     'jshint',
-    'test',
+    // 'test',
     'coffee',
     'compass:dist',
     'useminPrepare',
@@ -291,7 +291,7 @@ module.exports = function (grunt) {
     'htmlmin',
     'concat',
     'copy',
-    'cdnify',
+    // 'cdnify',
     'ngmin',
     'uglify',
     'rev',
