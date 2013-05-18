@@ -16,6 +16,11 @@
   padding-top: $vertical-pacing
   color: #222
 
+.stage
+  height: 100%
+  padding-bottom: 175px
+  background: url(../images/we-heart-arrested.png) no-repeat bottom
+
 .footer
   text-align: right
   img
@@ -30,21 +35,25 @@
 
 .episode
   padding: $vertical-pacing * 2 0
-  .episode-number
-    @extend .display
-    font-size: 1.5em
-    .of
-      @extend .fancy
-  .season-meta
-    @extend .display
-    text-transform: uppercase     
-    .episode
-      color: $season-episode-color
-    .divider
-      color: $season-divider-color
-  .description
-    p
-      margin: 0
+.episode-number
+  @extend .display
+  font-size: 1.5em
+  .of
+    @extend .fancy
+.season-meta
+  @extend .display
+  text-transform: uppercase     
+  .episode
+    color: $season-episode-color
+  .divider
+    color: $season-divider-color
+.episode-meta
+  list-style: none
+  li
+    line-height: 1.75em
+.episode-description
+  p
+    margin: 0
 
 .btn
   z-index: 10
