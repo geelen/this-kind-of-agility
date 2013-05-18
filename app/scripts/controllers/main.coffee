@@ -15,6 +15,6 @@ angular.module('datApp')
     count = 0
     $scope.tobiasImage = ->
       if !($scope.chosenEp && $scope.choosing)
-        "url(../images/tobias-jumping.gif#2)"
+        "url(images/tobias-jumping.gif#2)"
       else
-        "url(../images/tobias-jumping.gif#1)"
+        "url(images/tobias-jumping.gif#1)"
