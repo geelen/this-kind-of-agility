@@ -10,7 +10,7 @@
       </aside>
     </header>
 
-    <div class="episode" ng-show='chosenEp'>
+    <div class="episode" ng-class='{choosing: !chosenEp}'>
       <div class="row">
         <div class='episode-meta column push-1 span-5'>
           <div class="episode-number">
@@ -46,7 +46,7 @@
 
 <section class="bottom">
   <div class="grid">
-    <div class="row" ng-show='chosenEp'>
+    <div class="row" ng-class='{choosing: !chosenEp}'>
 
       <dl class='episode-meta column push-1 span-5'>
         <dt>Directed by</dt>
