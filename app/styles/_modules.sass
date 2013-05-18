@@ -13,7 +13,6 @@
     padding-top: 16px
 
 .bottom
-  padding-top: $vertical-pacing
   color: #222
 
 .stage
@@ -34,7 +33,7 @@
     +box-shadow(0 0 5px rgba(#000, 0.5))
 
 .episode
-  padding: $vertical-pacing * 2 0
+  padding: $vertical-pacing * 2 0 $vertical-pacing
 .episode-number
   @extend .display
   font-size: 1.5em
@@ -48,6 +47,7 @@
   .divider
     color: $season-divider-color
 .episode-meta
+  padding-top: $vertical-pacing / 2
   dt
     font-weight: bold
     float: left
@@ -77,7 +77,7 @@
   color: #fff
   &.shoot-me
     position: absolute
-    top: 20px
+    top: 0
     padding-left: 90px
   &:before
     content: ""
