@@ -1,21 +1,37 @@
 require 'nokogiri'
 require 'open-uri'
 require 'json'
-require './load_arrested_dev_catalog'
-require 'pry'
 
 wiki_doc = Nokogiri::HTML(open("http://arresteddevelopment.wikia.com/wiki/Category:Arrested_Development_Episodes"))
-netflix_doc = load_catalog
+netflix_doc = JSON.load(File.open("netflix_eps.json", "r"))
 
 def get_url_for_episode(netflix_doc, season, title)
   # TODO you might need to write a better matcher.
-  url = netflix_doc.films.first { |film|
-    film["title"].downcase.contains?(title.downcase)
-  }["id"]
-  id = url.split("/").last
-  
-  # This url appears to work
-  "http://movies.netflix.com/WiPlayer?movieid=#{id}&trkid=13220622"
+  # <div class="videoImagery" style="background-image: url(http://so0.akam.nflximg.com/soa2/731/1096779731.jpg);" data-video-id="70140358" data-season-id="70037510" data-episode-id="70133714"><div class="playButton"></div></div>
+  # season 1 id 70003533
+  # season 2 id 70020307
+  # season 3 id 70037510
+  # http://movies.netflix.com/WiPlayer?
+  #   movieid=70133699&
+  #   trkid=13220622&
+  #   t=Sad%20Sack&
+  #   btb=http%3A%2F%2Fthiskindofagilty.com%2FWiMovie%2FArrested_Development%2F70140358%3Fsod%3Dsearch-autocomplete
+
+  # HAX
+  title = "Forget Me Now" if title == "Forget-Me-Now"
+
+  matching_thingo = netflix_doc.detect { |film|
+    film["title"].downcase.include?(title.downcase)
+  }
+
+  if matching_thingo
+    id = matching_thingo["id"].split("/").last
+    
+    # This url appears to work
+    "http://movies.netflix.com/WiPlayer?movieid=#{id}&trkid=13220622&btb=http%3A%2F%2Fthiskindofagilty.com%2F"
+  else
+    raise "No matching ep found for #{title}"
+  end
 end
 
 def get_fun_fact(season, ep)
