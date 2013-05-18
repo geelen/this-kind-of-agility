@@ -1,0 +1,73 @@
+<section class="top">
+  <div class="grid">
+    <header class="header row">
+      <h1 class="column span-3">
+        <span class="under-border">This</span>
+        kind of agility?
+      </h1>
+      <aside class="column span-3">
+        A random Arrested Development episode selector machine.
+      </aside>
+    </header>
+
+    <div class="episode choosable" ng-show="chosenEp" ng-class="{choosing: choosing}">
+      <div class="row">
+        <div class="episode-meta column push-1 span-5">
+          <div class="episode-number">
+            <sup class="hash">#</sup>{{chosenEp.episode}}
+            <span class="of">of</span> {{episodes.length}}
+          </div>
+          <div class="season-meta">
+            <span class="season">Season {{chosenEp.season}}</span> <span class="divider">/</span> <span class="episode">Episode {{chosenEp.season_ep}}</span>
+          </div>
+          <h2>{{ chosenEp.title }}</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="screencap column span-2">
+          <img ng-src="{{chosenEp.screencap}}">
+        </div>
+        <div class="episode-description column span-4">
+          <p>{{ chosenEp.synopsis }}</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column push-2 span-2">
+          <a href="" ng-click="randomEp()" class="btn shoot-me">
+            Looking for something different? <strong>Shoot me!</strong>
+          </a>
+        </div>
+        <div class="column span-2">
+          <a ng-href="{{chosenEp.url}}" class="btn marry-me" target="_blank">
+            Watch it on <strong>Netflix? Marry me!</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bottom">
+  <div class="grid">
+    <div class="row choosable" ng-show="chosenEp" ng-class="{choosing: choosing}">
+
+      <div class="episode-facts column push-1 span-3">
+        <h3>Episode Facts <a href="#">(from Recurring Developments)</a></h3>
+        <p>Michael refers to the staff as sheep. When we see the staff as a group, there is often a man in a black shirt lagging behind the rest—the black sheep. || Warden Gentles, played by James Lipton, describes himself as "an appreciator of the arts." Lipton is best known as the host of Bravo's <em>Inside the Actors Studio</em>.</p>
+      </div>
+
+      <dl class="episode-details column span-2">
+        <dt>Directed by</dt>
+          <dd>{{ chosenEp.director }}</dd>
+        <dt>Written by</dt>
+          <dd>{{ chosenEp.writer }}</dd>
+        <dt>Aired on</dt>
+          <dd>{{ chosenEp.airdate }}</dd>
+      </dl>
+
+
+    </div>
+  </div>
+</section>
