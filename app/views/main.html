@@ -1,4 +1,4 @@
-<section class='top'>
+<section class='top' ng-style='{backgroundImage: tobiasImage()}'>
   <div class="grid">
     <header class='header row'>
       <h1 class="column span-3">
@@ -10,7 +10,7 @@
       </aside>
     </header>
 
-    <div class="episode" ng-class='{choosing: !chosenEp}'>
+    <div class="episode choosable" ng-show='chosenEp' ng-class='{choosing: choosing}'>
       <div class="row">
         <div class='episode-meta column push-1 span-5'>
           <div class="episode-number">
@@ -35,7 +35,7 @@
 
       <div class="row">
         <div class="column push-2 span-2">
-          <a href="" ng-click='anotherEp()' class="btn shoot-me">
+          <a href="" ng-click='randomEp()' class="btn shoot-me">
             Looking for something different? <strong>Shoot me!</strong>
           </a>
         </div>
@@ -51,7 +51,7 @@
 
 <section class="bottom">
   <div class="grid">
-    <div class="row" ng-class='{choosing: !chosenEp}'>
+    <div class="row choosable" ng-show='chosenEp' ng-class='{choosing: choosing}'>
 
       <div class="episode-facts column push-1 span-3">
         <h3>Episode Facts <a href="#">(from Recurring Developments)</a></h3>

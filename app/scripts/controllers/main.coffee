@@ -2,13 +2,19 @@
 
 angular.module('datApp')
   .controller 'MainCtrl', ($scope, $http, $timeout) ->
-    randomEp = ->
+    $scope.chosenEp = undefined
+    $scope.randomEp = ->
+      $scope.choosing = true
       $scope.chosenEp = $scope.episodes[Math.floor(Math.random() * $scope.episodes.length)]
+      $timeout (-> $scope.choosing = false), 0
 
     $http.get('/fuckyes.json').success (data) ->
       $scope.episodes = data
-      randomEp()
+      $scope.randomEp()
 
-    $scope.anotherEp = ->
-      $scope.chosenEp = undefined
-      $timeout(randomEp, 1000)
+    count = 0
+    $scope.tobiasImage = ->
+      if !($scope.chosenEp && $scope.choosing)
+        "url(../images/tobias-jumping.gif#2)"
+      else
+        "url(../images/tobias-jumping.gif#1)"
