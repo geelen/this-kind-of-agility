@@ -5,8 +5,8 @@ angular.module('datApp')
     $scope.chosenEp = undefined
     $scope.randomEp = ->
       $scope.choosing = true
-      $scope.chosenEp = $scope.episodes[Math.floor(Math.random() * $scope.episodes.length)]
-      $timeout (-> $scope.choosing = false), 0
+      $timeout (-> $scope.chosenEp = $scope.episodes[Math.floor(Math.random() * $scope.episodes.length)]), 300
+      $timeout (-> $scope.choosing = false), 1000
 
     $http.get('/fuckyes.json').success (data) ->
       $scope.episodes = data
